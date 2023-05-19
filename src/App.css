@@ -1,18 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Mynerve&display=swap');
 .App {
   text-align: center;
 }
 
 .App-logo {
-  height: 40vmin;
-  pointer-events: none;
+  scale: 50%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.i-do-fancy {
+  font-family: 'Mynerve', cursive;
 }
-
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
