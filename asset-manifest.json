@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/i-do-online/static/css/main.5a04265f.css",
-    "main.js": "/i-do-online/static/js/main.dfdf611a.js",
+    "main.js": "/i-do-online/static/js/main.ff6dae7f.js",
     "static/js/787.01e12147.chunk.js": "/i-do-online/static/js/787.01e12147.chunk.js",
     "index.html": "/i-do-online/index.html",
     "main.5a04265f.css.map": "/i-do-online/static/css/main.5a04265f.css.map",
-    "main.dfdf611a.js.map": "/i-do-online/static/js/main.dfdf611a.js.map",
+    "main.ff6dae7f.js.map": "/i-do-online/static/js/main.ff6dae7f.js.map",
     "787.01e12147.chunk.js.map": "/i-do-online/static/js/787.01e12147.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5a04265f.css",
-    "static/js/main.dfdf611a.js"
+    "static/js/main.ff6dae7f.js"
   ]
 }
