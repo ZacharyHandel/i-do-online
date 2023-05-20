@@ -4,7 +4,7 @@ import { Link, useMatch, useResolvedPath } from "react-router-dom";
 const HeaderBar = () => {
     return(
         <nav className="nav">
-            <Link to="/" className="site-title">I Do! Online</Link>
+            <Link to="/i-do-online" className="site-title">I Do! Online</Link>
             <ul>
                 <CustomLink to="/about">About</CustomLink>
                 <CustomLink to="/contact">Contact</CustomLink>
