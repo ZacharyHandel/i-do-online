@@ -1,17 +1,22 @@
-import logo from './logo.svg';
+import HeaderBar from "./components/HeaderBar"
 import './App.css';
-
+import About from "./pages/About";
+import Contact from "./pages/Contact";
+import Home from "./pages/Home"
+import {Route, Routes} from "react-router-dom";
 function App() {
+  
   return (
     <div className="App">
-      <header className="App-header">
-        <div className="App-logo">
-          <img src={ require("./images/logo.png")} alt="logo not found"/>
-        </div>
-        <h1 className="i-do-fancy">I Do! Online</h1>
-        <h2>To my Beautiful Fiance:</h2>
-        <p>This is the site; I hope you like it. I love you, Kenslie!</p>
-      </header>
+      <HeaderBar />
+      <div className="container">
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/contact" element={<Contact />} />
+        </Routes>
+      </div>
+      
     </div>
   );
 }
